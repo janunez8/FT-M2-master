@@ -1,0 +1,31 @@
+.container{
+    border: 1px solid;
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(194, 134, 134);
+}
+
+.button{
+    background-color: darkgray;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 10px 10px;
+    border-radius: 8px;
+}
+
+.button button{
+    background-color: brown;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+}
+
+.containerTemp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}

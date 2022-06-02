@@ -1,0 +1,11 @@
+.containerCards{
+    border: 10px solid;
+    
+    /* height: 400px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;/* En caso de que tenga mas card */
+    
+}
